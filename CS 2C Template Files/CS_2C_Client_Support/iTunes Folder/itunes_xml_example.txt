@@ -1,0 +1,44 @@
+- <dict>
+    <key>Track ID</key> 
+      <integer>576</integer> 
+    <key>Name</key> 
+      <string>Everytime We Say Goodbye</string> 
+    <key>Artist</key> 
+      <string>Irene Kral</string> 
+    <key>Album</key> 
+      <string>Kral Space</string> 
+    <key>Genre</key> 
+      <string>Jazz</string> 
+    <key>Kind</key> 
+      <string>AAC audio file</string> 
+    <key>Size</key> 
+      <integer>6287513</integer> 
+    <key>Total Time</key> 
+      <integer>389932</integer> 
+    <key>Track Number</key> 
+      <integer>9</integer> 
+    <key>Track Count</key> 
+      <integer>10</integer> 
+    <key>Date Modified</key> 
+      <date>2005-01-08T05:17:15Z</date> 
+    <key>Date Added</key> 
+      <date>2005-01-08T05:16:47Z</date> 
+    <key>Bit Rate</key> 
+      <integer>128</integer> 
+    <key>Sample Rate</key> 
+      <integer>44100</integer> 
+    <key>Persistent ID</key> 
+     <string>D0EFC2D5EBF3CD3A</string> 
+    <key>Track Type</key> 
+       <string>File</string> 
+    <key>File Type</key> 
+       <integer>1295270176</integer> 
+    <key>File Creator</key> 
+       <integer>1752133483</integer> 
+    <key>Location</key> 
+       <string>file://localhost/09%20Everytime%20We%20Say%20Goodbye.m4a</string> 
+    <key>File Folder Count</key> 
+       <integer>4</integer> 
+    <key>Library Folder Count</key> 
+       <integer>1</integer> 
+  </dict>

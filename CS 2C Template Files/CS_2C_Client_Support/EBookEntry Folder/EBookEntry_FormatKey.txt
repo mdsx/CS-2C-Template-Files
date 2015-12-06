@@ -1,0 +1,27 @@
+// EBookEntry format for reading Project Gutenberg data file
+
+/*  sample entry
+
+<pgterms:etext rdf:ID="etext24658">
+  <dc:publisher>&pg;</dc:publisher>
+  <dc:title rdf:parseType="Literal">The Loyalists of America and Their Times, Vol. 2 of 2
+From 1620-1816</dc:title>
+  <dc:creator rdf:parseType="Literal">Ryerson, Egerton, 1803-1882</dc:creator>
+  <pgterms:friendlytitle rdf:parseType="Literal">The Loyalists of America and Their Times, Vol. 2 o</pgterms:friendlytitle>
+  <dc:language><dcterms:ISO639-2><rdf:value>en</rdf:value></dcterms:ISO639-2></dc:language>
+  <dc:subject>
+    <rdf:Bag>
+      <rdf:li><dcterms:LCSH><rdf:value>United States -- Politics and government -- 1775-1783</rdf:value></dcterms:LCSH></rdf:li>
+      <rdf:li><dcterms:LCSH><rdf:value>United States -- History -- Revolution, 1775-1783</rdf:value></dcterms:LCSH></rdf:li>
+      <rdf:li><dcterms:LCSH><rdf:value>United States -- History -- War of 1812</rdf:value></dcterms:LCSH></rdf:li>
+      <rdf:li><dcterms:LCSH><rdf:value>United States -- Politics and government -- To 1775</rdf:value></dcterms:LCSH></rdf:li>
+      <rdf:li><dcterms:LCSH><rdf:value>American loyalists</rdf:value></dcterms:LCSH></rdf:li>
+      <rdf:li><dcterms:LCSH><rdf:value>Massachusetts -- Politics and government -- To 1775</rdf:value></dcterms:LCSH></rdf:li>
+    </rdf:Bag>
+  </dc:subject>
+  <dc:subject><dcterms:LCC><rdf:value>E201</rdf:value></dcterms:LCC></dc:subject>
+  <dc:created><dcterms:W3CDTF><rdf:value>2008-02-20</rdf:value></dcterms:W3CDTF></dc:created>
+  <dc:rights rdf:resource="&lic;" />
+</pgterms:etext>
+
+*/

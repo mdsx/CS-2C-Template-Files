@@ -1,0 +1,10 @@
+// StarNearEarth format for reading RECONS data file
+
+/* 2 sample lines (S = start of field, E = end of filed.  length = E-S+1:
+ 20. GJ 1061         1   1565   03 35 59.7 -44 30 45 *   0.826 117.7 *   0.27201 0.00130    **  M5.5 V  *   13.09   15.26   0.11                        Henry et al. 1997, Henry et al. 2006
+  1. GJ  551         -     49   14 29 43.0 -62 40 46 H   3.853 281.5 H   0.76887 0.00029  YHB*  M5.5 V  *   11.09   15.53   0.11    separation 7849"    Proxima Centauri
+
+S E  S             ESE S    E  S         E S       E    S    E S   E     S     E S     E       DS       E   S   E   S   E  S   E   S                  E S                        ... END OF LINE 
+012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
+         10        20        30        40        50        60        70        80        90       100       110       120       130       140       150       160
+*/

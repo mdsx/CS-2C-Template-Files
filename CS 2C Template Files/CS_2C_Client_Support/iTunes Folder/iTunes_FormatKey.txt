@@ -1,0 +1,15 @@
+// iTunesEntry format for reading simplified itunes data file
+
+/* ------------- 2 sample entries ----------
+
+#
+Rihanna
+Russian Roulette
+228
+
+#
+Foo Fighters
+All My Life
+263
+
+------------------------------------------- */

@@ -1,0 +1,73 @@
+Instructions for using the source, include and data files for StarNearEarth
+project.
+
+These instructions will get you started so that you can have a convenient
+method of reading several StarNearEarth objects ready to use in your
+various data structures and algorithms programs.  Once you have the base 
+program working, you will not have to repeat these steps - you can reuse
+the same program source for all your experiments.
+
+1. If you do not already have one, create a new C++ project using your IDE.
+   You can establish a short "Hello World" program to make sure it is
+   working. (In VC++ Express, Disable pre-compiled headers and remove unneeded
+   files like stdafx.h, ReadMe.txt, etc. that VC++ automatically embeds.)
+
+
+2. Copy the needed source files for this project:
+
+   StarNearEarth.cpp
+   StarNearEarth.h
+   Foothill_Sort.h 
+
+   These were in your original CS_2C_Files folder, and you may
+   have already added them to your projects.  If not, do that now.
+
+3. Copy the needed data file into the folder for this project:
+
+   nearest_stars.txt
+
+   If your IDE is set to have a different source path than its run/execute
+   path, you should place the .txt file into the run/execute path.  In VC++
+   Express, this is not necessary - the folders/paths are the same by default.
+
+   In Xcode on a mac, the .txt file should go above the source folder and
+   in the project folder -- even though both source and project folders
+   may have the same name in Xcode.  However, putting it there is not
+   enough:  you will have to use Xcode Product->Scheme->Edit Scheme->Run Project
+   ->Working Directory, check the box that says "use custom working dir"
+   and navigate to this project folder.  Documentation with pictures is in
+   your modules.  Fixing the newlines involves opening the .txt file using
+   ApplesScript editor, and selecting "Save As: TEXT". You then have to
+   rename the old file (by changing it to nearest_stars_ORIG) and then rename the 
+   new file so it is the same nearest_stars.txt as the original had.  Again, 
+   the modules documents all of this with screen shots.
+
+   In Eclipse on a Mac, the .txt file goes above the source and debug folders
+   directly in the workspace/<project name> directory (e.g., workspace/Foothill
+   if your project is called Foothill).  Also in Eclipse/Mac, the other
+   files go into the source directory.  You'll also have to open and resave
+   the file using Unix/Mac line returns from inside Eclipse.
+
+
+4. Replace the contents of your main .cpp file with the sample program in
+   Foothill_StarNearEarth.cpp via copy-paste.  (CAUTION: If 
+   Foothill_StarNearEarth.cpp opens up in your IDE environment, don't make the 
+   mistake of believing it ispart of your project.  It is not - you must copy 
+   its contents and paste into your actual main .cpp file, which I usually call
+   Foothill.cpp).
+
+5. Using your IDE's Add->Existing Item feature, browse for and add the .h files
+   listed above to the project's Header Files section.
+
+   For Eclipse on a Mac, this won't be necessary -- merely moving the files
+   into the source directory will cause them to appear in your project's
+   explorer window.
+
+6. Compile (build) and Run your program.
+
+7. For Eclipse on a Mac, you should open nearest_stars.txt from the IDE and
+   select File -> Convert Line Delimiters To -> Unix [default] before running
+   the program.  This only needs to be done once.
+
+NOTE: You can have both these files and other .h/.cpp files from different
+project sets in your project at the same time as my screen shot .jpg shows.
